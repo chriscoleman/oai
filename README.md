@@ -8,6 +8,15 @@ A minimalist OpenAI API client.
 pip install oaix
 ```
 
+## Configuration
+
+~/.config/oaix/config.yaml
+
+```yaml
+---
+api_key: sk-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+```
+
 ## Usage
 ```python
 import oaix
