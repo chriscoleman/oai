@@ -11,7 +11,7 @@ class Api(httpx.Client):
         super().__init__(base_url='https://api.openai.com/v1/', timeout=30.0)
         if api_key is None:
             try:
-                api_key = confuse.Configuration('oai').get()['api_key']
+                api_key = confuse.Configuration('oaix').get()['api_key']
             except KeyError:
                 pass
             else:

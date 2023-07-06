@@ -1,18 +1,18 @@
-# oai
+# oaix
 
 A minimalist OpenAI API client.
 
 ## Installation
 
 ```bash
-pip install oai
+pip install oaix
 ```
 
 ## Usage
 ```python
-import oai
+import oaix
 
-oai.Api().post('chat/completions', json={
+oaix.Api().post('chat/completions', json={
     'model': 'gpt-3.5-turbo',
     'messages': [
         {
